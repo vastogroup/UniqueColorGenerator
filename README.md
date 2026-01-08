@@ -4,7 +4,7 @@ Stand-alone implementation of algorithm used in multiple of my research projects
 
 ## Overview
 
-This tool generates `n` unique, visually distinct colors using the HSV (Hue, Saturation, Value) color space. The algorithm ensures maximum color separation by distributing hues equidistantly across the hue spectrum (0-360°), while maintaining full saturation and brightness for optimal visual distinction.
+This tool generates `n` unique, visually distinct colors using the HSV (Hue, Saturation, Value) color space. The algorithm ensures maximum color separation by distributing hues equidistantly across the hue spectrum (0-360°), while maintaining full saturation and brightness for visual distinction.
 
 ## Algorithm
 
@@ -23,8 +23,8 @@ The color generation process follows these steps:
 
 ### Why This Approach?
 
-- **Maximum Visual Separation**: Equidistant hues ensure the largest possible perceptual difference between colors
-- **Full Saturation & Brightness**: Fixed at 100% ensures vibrant, easily distinguishable colors
+- **Maximum Visual Separation**: Equidistant hues ensure the largest possible difference between colors
+- **Full Saturation & Brightness**: Fixed at 100% ensures vibrant colors to increase distinguishability
 - **Deterministic**: Same input `n` always produces the same color set
 - **Scalable**: Works for any number of colors from 1 to 100+
 
